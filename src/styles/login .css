@@ -534,17 +534,17 @@
 }
 
 .background_dragan{
-    background-image:url(../img/loginAssets/data_down_visual_top_dragan.jpg);
+    background-image:url(../../img/loginAssets/data_down_visual_top_dragan.jpg);
     animation-delay: 0s;
 }
 
 .background_village{
-    background-image:url(../img/loginAssets/data_down_visual_top_village.jpg);
+    background-image:url(../../img/loginAssets/data_down_visual_top_village.jpg);
     animation-delay: 6s;
 }
 
 .background_ocean{
-    background-image:url(../img/loginAssets/data_down_visual_top_ocean.jpg);
+    background-image:url(../../img/loginAssets/data_down_visual_top_ocean.jpg);
     animation-delay: 12s;
 }
 
@@ -605,13 +605,13 @@
 
 
     .background_dragan{
-        background-image:url(../img/loginAssets//data_down_visual_top_dragan_m.jpg)
+        background-image:url(../../img/loginAssets//data_down_visual_top_dragan_m.jpg)
     }
     .background_village{
-        background-image:url(../img/loginAssets/data_down_visual_top_village_m.jpg)
+        background-image:url(../../img/loginAssets/data_down_visual_top_village_m.jpg)
     }
     .background_ocean{
-        background-image:url(../img/loginAssets/data_down_visual_top_ocean_m.jpg)
+        background-image:url(../../img/loginAssets/data_down_visual_top_ocean_m.jpg)
     }
 }
 

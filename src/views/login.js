@@ -1,5 +1,15 @@
 import "/styles/login .css";
 import { LoginWithGoogle,deleteUser,onGetUserData,loginEmailPassword,userDataGoogle } from "/firebase/firebase";
+import logoPearl from '../img/loginAssets/img_network_bi.svg'
+import logoBD from '../img/loginAssets/logo_bdo_global.svg'
+import userI from '../img/loginAssets/user.png'
+import network from '../img/loginAssets/icn_globe.svg'
+import iconUserLog from '../img/loginAssets/user.png'
+import iconPasswordLog from '../img/loginAssets/candado-abierto.png'
+import backgroundModalLog from '../img/loginAssets/DarkKnight.png'
+import iconCreatUs from '../img/loginAssets/agregar-usuario.png'
+import googleIc from '../img/loginAssets/googleIcon.png'
+
 function login(navegando){
 
     //**CONTENEDORES PRINCIPALES
@@ -224,13 +234,12 @@ function login(navegando){
     ulModalDescarga.append(liModalDescarga1,liModalDescarga2,liModalDescarga3,liModalDescarga4,liModalDescarga5)
     modalDescarga.append(ulModalDescarga)
 
-
     //Imagenes Logos -Iconos -Header
 
-    logoPearlA.setAttribute('src','/img/loginAssets/img_network_bi.svg');
-    logoBlackD.setAttribute('src', '/img/loginAssets/logo_bdo_global.svg');
-    userIcon.setAttribute('src', '/img/loginAssets/user.png');
-    networkIcon.setAttribute('src', '/img/loginAssets/icn_globe.svg');
+    logoPearlA.setAttribute('src',logoPearl);
+    logoBlackD.setAttribute('src', logoBD);
+    userIcon.setAttribute('src',  userI);
+    networkIcon.setAttribute('src', network);
 
     //menu-Login
 
@@ -239,8 +248,9 @@ function login(navegando){
     const createUserContainer = document.createElement('div')
     const iconCreateUser = document.createElement('img')
     const pCreateuser = document.createElement('p')
+  
 
-    iconCreateUser.setAttribute('src','/img/loginAssets/agregar-usuario.png')
+    iconCreateUser.setAttribute('src',iconCreatUs)
     pCreateuser.innerText ="Crear Cuenta"
     loginButton.textContent = "Iniciar Sesión"
 
@@ -301,12 +311,12 @@ function login(navegando){
     appsIconContainer.classList.add('appsIconContainer');
     appsContainer.classList.add('appsContainer');
 
-    iconUserLogin.setAttribute('src', '/img/loginAssets/user.png');
-    iconPasswordLogin.setAttribute('src', '/img/loginAssets/candado-abierto.png');
-    backgroundModalLogin.setAttribute('src', '/img/loginAssets/DarkKnight.png');
-    facebookIcon.setAttribute('src', '/img/loginAssets/facebook.png');
-    googleIcon.setAttribute('src', '/img/loginAssets/googleIcon.png');
-    twitterIcon.setAttribute('src', '/img/loginAssets/twiterIcon.png');
+
+
+    iconUserLogin.setAttribute('src', iconUserLog);
+    iconPasswordLogin.setAttribute('src', iconPasswordLog);
+    backgroundModalLogin.setAttribute('src', backgroundModalLog);
+    googleIcon.setAttribute('src', googleIc);
     inputUserLogin.setAttribute('placeholder', 'email');
     inputUserLogin.setAttribute('id', 'inputEmail');
     inputPasswordLogin.setAttribute('placeholder', 'password');
