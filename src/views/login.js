@@ -1,5 +1,5 @@
-import "../styles/login .css";
-import { LoginWithGoogle,deleteUser,onGetUserData,loginEmailPassword,userDataGoogle } from "../firebase/firebase";
+import "/styles/login .css";
+import { LoginWithGoogle,deleteUser,onGetUserData,loginEmailPassword,userDataGoogle } from "/firebase/firebase";
 function login(navegando){
 
     //**CONTENEDORES PRINCIPALES
@@ -240,7 +240,7 @@ function login(navegando){
     const iconCreateUser = document.createElement('img')
     const pCreateuser = document.createElement('p')
 
-    iconCreateUser.setAttribute('src','../img/loginAssets/agregar-usuario.png')
+    iconCreateUser.setAttribute('src','/img/loginAssets/agregar-usuario.png')
     pCreateuser.innerText ="Crear Cuenta"
     loginButton.textContent = "Iniciar Sesión"
 
@@ -301,12 +301,12 @@ function login(navegando){
     appsIconContainer.classList.add('appsIconContainer');
     appsContainer.classList.add('appsContainer');
 
-    iconUserLogin.setAttribute('src', '../img/loginAssets/user.png');
-    iconPasswordLogin.setAttribute('src', '../img/loginAssets/candado-abierto.png');
-    backgroundModalLogin.setAttribute('src', '../img/loginAssets/DarkKnight.png');
-    facebookIcon.setAttribute('src', '../img/loginAssets/facebook.png');
-    googleIcon.setAttribute('src', '../img/loginAssets/googleIcon.png');
-    twitterIcon.setAttribute('src', '../img/loginAssets/twiterIcon.png');
+    iconUserLogin.setAttribute('src', '/img/loginAssets/user.png');
+    iconPasswordLogin.setAttribute('src', '/img/loginAssets/candado-abierto.png');
+    backgroundModalLogin.setAttribute('src', '/img/loginAssets/DarkKnight.png');
+    facebookIcon.setAttribute('src', '/img/loginAssets/facebook.png');
+    googleIcon.setAttribute('src', '/img/loginAssets/googleIcon.png');
+    twitterIcon.setAttribute('src', '/img/loginAssets/twiterIcon.png');
     inputUserLogin.setAttribute('placeholder', 'email');
     inputUserLogin.setAttribute('id', 'inputEmail');
     inputPasswordLogin.setAttribute('placeholder', 'password');
